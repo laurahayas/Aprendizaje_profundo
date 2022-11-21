@@ -24,6 +24,7 @@ Todos los experimentos fueron ejecutados en Nabucodonosor usando las placas de v
 2- Red Convolucional con 3 capas convolucionales que hacen convolución 1D con filtros tamaño 2, 3 Y 4 respectivamente, y 128 neuronas en la capa de salida con activación lineal.
 
 RESULTADOS OBTENIDOS
+
 1- Perceptrón Multicapa
                         - train_loss:	
                         - val_loss:	
