@@ -29,6 +29,7 @@ Todos los experimentos fueron ejecutados en Nabucodonosor usando las placas de v
 RESULTADOS OBTENIDOS
 
 1- Perceptrón Multicapa
+
                         - train_loss:	
                         - val_loss:	
                         - validation_balanced_accuracy:	
@@ -36,6 +37,7 @@ RESULTADOS OBTENIDOS
                         - Test Balance accuracy: 
                         
 2- Red Convolucional
+
                         - train_loss:	1.187
                         - val_loss:	1.21
                         - validation_balanced_accuracy:	0.717
