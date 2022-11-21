@@ -1,6 +1,11 @@
 # Aprendizaje_profundo
 
-Adicionalmente, se pide un reporte de los experimentos y los procesos que se llevaron a cabo 
+Integrantes:
+- Alvarez Lupu, Gustavo
+- Ambrosis, Nicolás
+- Conrrero, Agustina
+- Hayas, Laura
+- Luna, Andrés
 
 Dataset: MeLi Challenge 2019. Contiene títulos de publicaciones efectuadas por vendedores en la página web de Mercado Libre.
 Los datos están divididos en 2 archivos: train, validation y test.
@@ -13,6 +18,7 @@ PREPROCESAMEINTO
 de todos los datos juntos.
 
 PROCESOS Y EXPERIMENTOS
+Todos los experimentos fueron ejecutados en Nabucodonosor usando las placas de video (CUDA).
 - Se utilizaron dos Redes Neuronales: 
 1- Perceptrón Multicapa con 2 capas ocultas, y una capa de salida. Utilizamos la función de activación RELU para las capas ocultas,y ninguna activación para la capa de salida con 128 neuronas.
 2- Red Convolucional con 3 capas convolucionales que hacen convolución 1D con filtros tamaño 2, 3 Y 4 respectivamente, y 128 neuronas en la capa de salida con activación lineal.
@@ -24,6 +30,8 @@ RESULTADOS OBTENIDOS
                         Tiempo de ejecución:
                         
 2- Red Convolucional
-                        Balance accuracy (test) :
-                        Balance accuracy (train):
-                        Tiempo de ejecución:
+                        train_loss:	1.187
+                        val_loss:	1.21
+                        validation_balanced_accuracy:	0.717
+                        Tiempo de ejecución: 1.8 horas
+                        Test Balance accuracy: 0.773
