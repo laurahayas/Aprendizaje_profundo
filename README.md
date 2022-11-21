@@ -25,13 +25,15 @@ Todos los experimentos fueron ejecutados en Nabucodonosor usando las placas de v
 
 RESULTADOS OBTENIDOS
 1- Perceptrón Multicapa
-                        Balance accuracy (test) :
-                        Balance accuracy (train):
-                        Tiempo de ejecución:
+                        - train_loss:	
+                        - val_loss:	
+                        - validation_balanced_accuracy:	
+                        - Tiempo de ejecución: 
+                        - Test Balance accuracy: 
                         
 2- Red Convolucional
-                        train_loss:	1.187
-                        val_loss:	1.21
-                        validation_balanced_accuracy:	0.717
-                        Tiempo de ejecución: 1.8 horas
-                        Test Balance accuracy: 0.773
+                        - train_loss:	1.187
+                        - val_loss:	1.21
+                        - validation_balanced_accuracy:	0.717
+                        - Tiempo de ejecución: 1.8 horas
+                        - Test Balance accuracy: 0.773
