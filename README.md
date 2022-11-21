@@ -38,8 +38,8 @@ RESULTADOS OBTENIDOS
                         
 2- Red Convolucional
 
-                        - train_loss:	1.187
-                        - val_loss:	1.21
+                        - train_loss: 1.187
+                        - val_loss: 1.21
                         - validation_balanced_accuracy:	0.717
                         - Tiempo de ejecución: 1.8 horas
                         - Test Balance accuracy: 0.773
