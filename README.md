@@ -1,6 +1,7 @@
 # Aprendizaje_profundo
 
 Integrantes:
+
 - Alvarez Lupu, Gustavo
 - Ambrosis, Nicolás
 - Conrrero, Agustina
@@ -12,12 +13,14 @@ Los datos están divididos en 2 archivos: train, validation y test.
 
 Objetivo : implementar una Red Neuronal que asigne una categoría a cada título.
 
-PREPROCESAMEINTO
+PREPROCESAMIENTO
+
 - En una primera instancia, se vectorizaron los títulos de las publicaciones para cada conjunto por separado (train, validation y test).(no se utilizó)
 - Posteriormente, se concatenaron los 3 datasets, para crear un diccionario común el cual sirvió como base para vectorizar los títulos de las publicaciones 
 de todos los datos juntos.
 
 PROCESOS Y EXPERIMENTOS
+
 Todos los experimentos fueron ejecutados en Nabucodonosor usando las placas de video (CUDA).
 - Se utilizaron dos Redes Neuronales: 
 1- Perceptrón Multicapa con 2 capas ocultas, y una capa de salida. Utilizamos la función de activación RELU para las capas ocultas,y ninguna activación para la capa de salida con 128 neuronas.
