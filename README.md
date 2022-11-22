@@ -22,8 +22,9 @@ de todos los datos juntos.
 PROCESOS Y EXPERIMENTOS
 
 Todos los experimentos fueron ejecutados en Nabucodonosor usando las placas de video (CUDA).
+
 - Se utilizaron dos Redes Neuronales: 
--
+
 1- Perceptrón Multicapa con 2 capas ocultas, y una capa de salida. Utilizamos la función de activación RELU para las capas ocultas,y ninguna activación para la capa de salida con 128 neuronas. Epochs=10.
 
 2- Red Convolucional con 3 capas convolucionales que hacen convolución 1D con filtros tamaño 2, 3 Y 4 respectivamente, y 128 neuronas en la capa de salida con activación lineal. Epochs=10.
